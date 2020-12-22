@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>Change the HTML Content</h1>
+        <h2 id="hContent">Hello freind</h2>
+        <button onclick='document.getElementById("hContent").innerHTML="Hi mark"'>Mark</button>
+        <button onclick='document.getElementById("hContent").innerHTML="How are you"'>Jeff</button>
+        <button id="myBtn" value="Hello Earth" onclick="Function1()">Earth</button>
+        <button id="myBtn" value="Hello Moon" onclick="Function2()">Moon</button>
+        <script>
+            function Function1(){
+                document.getElementById("hContent").innerHTML="Hello Earth";
+            }
+            function Function2() {
+                document.getElementById("hContent").innerHTML="Hello Moon";
+            }
+        </script>
+    </body>
+</html>
